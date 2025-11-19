@@ -4,7 +4,7 @@ Sistema de gestión académica para la digitalización del libro de temas.
 
 Este proyecto busca eliminar el uso de papel en los libros de temas y digitalizar el proceso de registro y control de la información académica en la **Escuela Normal Superior Dalmacio Vélez Sarsfield**.
 
-- **Stack Tecnológico**
+### Stack Tecnológico
 
 El proyecto utiliza la arquitectura *Modelo-Vista-Controlador (MVC)* y el stack **PERN**:
 
@@ -12,7 +12,7 @@ El proyecto utiliza la arquitectura *Modelo-Vista-Controlador (MVC)* y el stack 
 * **Backend:** Node.js con Express.
 * **Base de Datos:** PostgreSQL.
 
-- **Equipo de Desarrollo**
+### Equipo de Desarrollo
 
 Proyecto desarrollado por los alumnos de 3er año de Desarrollo de Software:
 
@@ -25,11 +25,11 @@ Proyecto desarrollado por los alumnos de 3er año de Desarrollo de Software:
 * Paz Enzo
 * Rossi Ivo
 
-- **Instalación y Configuración**
+## Instalación y Configuración
 
 Sigue estos pasos para configurar el proyecto en tu entorno local.
 
-- **Prerrequisitos**
+### Prerrequisitos
 * Tener instalado *Node.js* y *npm*.
  
 * Tener instalado **PostgreSQL** y crear una base de datos llamada `libro_de_temas_db`.
