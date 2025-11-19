@@ -31,31 +31,46 @@ Sigue estos pasos para configurar el proyecto en tu entorno local.
 
 - **Prerrequisitos**
 * Tener instalado *Node.js* y *npm*.
+ 
 * Tener instalado **PostgreSQL** y crear una base de datos llamada `libro_de_temas_db`.
 
 ### 1. Clonar el repositorio
+
 git clone https://github.com/Ivorossi66/Libro-de-Temas.git
+
 cd LIBRO_DE_TEMAS
 
 ### 2. Configurar Backend
+
 * cd backend
+ 
 * npm install
+ 
 * Crear archivo .env dentro de /backend y agregar:
 
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_USER=tu_usuario
+
 DB_PASSWORD=tu_password
+
 DB_NAME=libro_de_temas_db
+
 PORT=3001
 
 -En la terminal correr el backend: 
 *npm run dev*
 
 ### 3. Configurar Frontend 
+
 -cmd 
+
 cd ../frontend
+
 npm install
+
 npm run dev
 
 -La app se iniciara en:
